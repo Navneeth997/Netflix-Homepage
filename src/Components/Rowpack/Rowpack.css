@@ -1,0 +1,24 @@
+.row h1{
+    color: white;
+    margin-left: 10px;
+}
+
+.posters{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+
+.films{
+    max-height: 250px;
+    padding: 10px;
+    cursor: pointer;
+}
+.films:hover{
+  padding: 20px;
+  
+}
